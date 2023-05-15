@@ -8,6 +8,7 @@ renderuser=()=>{
         let p1=document.createElement('p1')
         let p2=document.createElement('p2')
         let checl=document.createElement('input')
+        checl.classList.add('checkboxs')
         divs.classList.add('students');
         p1.classList.add('block')
         p2.classList.add('block')
