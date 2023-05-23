@@ -64,8 +64,8 @@ border-radius: 12px;
     border-radius: 15px;
 }
 .danger{
-    background-color:red;
-    color: rgb(212, 143, 143);
+    background-color: rgb(212, 143, 143);
+    color:red;
     display: inline;
     padding: 12px;
     border-radius: 15px;
@@ -83,4 +83,8 @@ border-radius: 12px;
 }
 .block{
     display: block;
+}
+.flex{
+    display: flex;
+    gap: 20px;
 }
