@@ -29,8 +29,14 @@ renderuser=()=>{
         divs1.appendChild(p1);
         divs1.appendChild(p2)
         checl.onclick=function(){
-           
-    divs1.classList.add('bg')
+           if(checl.checked == true){
+            checl.checked=true;
+            divs1.classList.add('bg')
+           }
+           else{
+            divs1.classList.remove('bg')
+           }
+  
         }
     })
     
